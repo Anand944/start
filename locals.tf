@@ -1,5 +1,5 @@
 locals{
-    tags{
+    tags = {
         Evn = "Prod"
     }
 }
