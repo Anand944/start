@@ -18,5 +18,5 @@ module "ResourceGroup"{
     source = "./ResourceGroup"
     base_name = "terraform08"
     location = "east us"
-    tags = locals.tags
+    tags = local.tags
 }
